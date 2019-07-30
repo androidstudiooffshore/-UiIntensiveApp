@@ -34,17 +34,20 @@
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:layout_weight="1"
+                           android:layout_weight="0.3"
+                           android:textColor="@android:color/black"
                            android:text="UserId" />
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:layout_weight="1"
+                           android:layout_weight="1.2"
+                           android:textColor="@android:color/black"
                            android:text="User Name" />
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:layout_weight="1"
+                           android:layout_weight="1.2"
+                           android:textColor="@android:color/black"
                            android:text="Location" />
                    </TableRow>
                    <TableRow android:background="#DAE8FC" android:padding="5dp">
@@ -52,16 +55,19 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:layout_weight="1"
+                           android:textColor="@android:color/black"
                            android:text="1" />
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:layout_weight="1"
+                           android:layout_weight="2"
+                           android:textColor="@android:color/black"
                            android:text="Suresh Dasari" />
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:layout_weight="1"
+                           android:layout_weight="3"
+                           android:textColor="@android:color/black"
                            android:text="Hyderabad" />
                    </TableRow>
                    <TableRow android:background="#DAE8FC" android:padding="5dp">
@@ -69,16 +75,19 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:layout_weight="1"
+                           android:textColor="@android:color/black"
                            android:text="2" />
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:layout_weight="1"
+                           android:layout_weight="2"
+                           android:textColor="@android:color/black"
                            android:text="Rohini Alavala" />
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:layout_weight="1"
+                           android:layout_weight="2"
+                           android:textColor="@android:color/black"
                            android:text="Guntur" />
                    </TableRow>
                    <TableRow android:background="#DAE8FC" android:padding="5dp">
@@ -86,16 +95,19 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:layout_weight="1"
+                           android:textColor="@android:color/black"
                            android:text="3" />
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:layout_weight="1"
+                           android:layout_weight="2"
+                           android:textColor="@android:color/black"
                            android:text="Trishika Dasari" />
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:layout_weight="1"
+                           android:layout_weight="2"
+                           android:textColor="@android:color/black"
                            android:text="Guntur" />
                    </TableRow>
 
@@ -109,18 +121,30 @@
                            android:text="Show DiaLogue" />
 
                    </TableRow>
-                   <TableRow android:background="#DAE8FC" android:padding="5dp"
+                   <TableRow android:background="#DAE8FC"
                        android:layout_margin="10dp">
 
+
+
                        <androidx.appcompat.widget.AppCompatButton
-                           android:id="@+id/buttonAwesome"
-                           android:layout_width="109dp"
+                           android:id="@+id/button2"
+                           android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
-                           android:text="Awesome Button"
+                           android:text="Show All progressbars "
+                           android:layout_weight="1"
                            android:textAllCaps="false" />
 
 
                    </TableRow>
+
+                   <TableRow
+                       android:layout_height="66dp"
+                       android:layout_margin="10dp"
+                       android:background="#DAE8FC">
+
+
+                   </TableRow>
+
 
                </TableLayout>
 
