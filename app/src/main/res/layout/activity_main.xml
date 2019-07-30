@@ -4,154 +4,219 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/colorAccent">
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Contraint Layout"
+        app:fontFamily="@font/abhaya_libre"
+        android:textColor="@android:color/white" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorPrimaryDark"
-        android:layout_margin="@dimen/dp_20">
-       <LinearLayout
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           android:background="@android:color/holo_green_dark"
-           android:layout_margin="@dimen/dp_20">
-           <FrameLayout
-               android:layout_height="match_parent"
-               android:layout_width="match_parent"
-               android:layout_margin="@dimen/dp_20"
-               android:background="@android:color/holo_blue_light"
-               >
-               <TableLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="match_parent"
-                   android:layout_margin="@dimen/dp_20"
-                   android:shrinkColumns="0"
-                   android:background="@android:color/holo_orange_light">
+        android:layout_margin="@dimen/dp_20"
+        android:background="@color/colorPrimaryDark">
 
-                   <TableRow android:background="#0079D6" android:padding="5dp">
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="0.3"
-                           android:textColor="@android:color/black"
-                           android:text="UserId" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="1.2"
-                           android:textColor="@android:color/black"
-                           android:text="User Name" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="1.2"
-                           android:textColor="@android:color/black"
-                           android:text="Location" />
-                   </TableRow>
-                   <TableRow android:background="#DAE8FC" android:padding="5dp">
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="1"
-                           android:textColor="@android:color/black"
-                           android:text="1" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="2"
-                           android:textColor="@android:color/black"
-                           android:text="Suresh Dasari" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="3"
-                           android:textColor="@android:color/black"
-                           android:text="Hyderabad" />
-                   </TableRow>
-                   <TableRow android:background="#DAE8FC" android:padding="5dp">
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="1"
-                           android:textColor="@android:color/black"
-                           android:text="2" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="2"
-                           android:textColor="@android:color/black"
-                           android:text="Rohini Alavala" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="2"
-                           android:textColor="@android:color/black"
-                           android:text="Guntur" />
-                   </TableRow>
-                   <TableRow android:background="#DAE8FC" android:padding="5dp">
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="1"
-                           android:textColor="@android:color/black"
-                           android:text="3" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="2"
-                           android:textColor="@android:color/black"
-                           android:text="Trishika Dasari" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="2"
-                           android:textColor="@android:color/black"
-                           android:text="Guntur" />
-                   </TableRow>
+        <TextView
 
-                   <TableRow android:background="#DAE8FC" android:padding="5dp"
-                       android:layout_margin="15dp">
-                       <Button
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:layout_weight="1"
-                           android:textAllCaps="false"
-                           android:text="Show DiaLogue" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Relative Layout"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/abhaya_libre" />
 
-                   </TableRow>
-                   <TableRow android:background="#DAE8FC"
-                       android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@android:color/holo_green_dark"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:text="Linear Layout"
+                app:fontFamily="@font/abhaya_libre"
+                android:textColor="@android:color/white" />
 
 
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@android:color/holo_blue_light">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:text="Frame Layout"
+                    app:fontFamily="@font/abhaya_libre"
+                    android:textColor="@android:color/white" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dp_20"
+                    android:background="@android:color/holo_orange_light"
+                    android:shrinkColumns="0">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="Table Layout"
+                        app:fontFamily="@font/abhaya_libre"
+                        android:textColor="@android:color/white" />
+                    <TableRow
+                        android:background="#0079D6"
+                        android:padding="5dp"
+                        >
 
-                       <androidx.appcompat.widget.AppCompatButton
-                           android:id="@+id/button2"
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:text="Show All progressbars "
-                           android:layout_weight="1"
-                           android:textAllCaps="false" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="UserId"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.2"
+                            android:text="User Name"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.2"
+                            android:text="Location"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#DAE8FC"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Suresh Dasari"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Hyderabad"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#DAE8FC"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="2"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Rohini Alavala"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Guntur"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#DAE8FC"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="3"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Trishika Dasari"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Guntur"
+                            android:textColor="@android:color/black"
+                            app:fontFamily="@font/adamina" />
+                    </TableRow>
 
 
-                   </TableRow>
-
-                   <TableRow
-                       android:layout_height="66dp"
-                       android:layout_margin="10dp"
-                       android:background="#DAE8FC">
-
-
-                   </TableRow>
+                    <com.example.uiintensiveapp.MyVectorClock
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/clock"
+                        android:layout_gravity="center"/>
 
 
-               </TableLayout>
+                    <ImageView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cloudy"
+                        android:layout_marginBottom="5dp"/>
 
-           </FrameLayout>
-       </LinearLayout>
+
+                </TableLayout>
+
+            </FrameLayout>
+        </LinearLayout>
     </RelativeLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
